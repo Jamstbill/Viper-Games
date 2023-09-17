@@ -1,0 +1,93 @@
+.mx-auto.max-w-7xl.px-2.sm\:px-6.lg\:px-8{
+    padding-top: 100px;
+}
+.bg{
+    background-color: #b91c1c;
+    height: 217px;
+}
+.logoText{
+    padding-top: 2.6rem;
+}
+.viperLogo{
+    margin-top: -47px;
+    z-index: 99999999999;
+}
+.headerBlock{
+    margin-left: 4.4rem;
+    margin-top: -2.1rem;
+}
+.searchBar{
+    padding-top: 0.5rem;
+    border-radius: 10px;
+    position: relative;
+    z-index: 9;
+}
+.flexInner{
+    display: flex;
+    padding-right: 30rem;
+}
+.accountIcons{
+    display: flex;
+    justify-content: space-between;
+    width: 7rem;
+}
+.viperLogoText{
+    transform: scale(3.5);
+    padding-left: 3rem;
+}
+.footerSection{
+    margin-top: 4rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #b91c1c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.footerContent{
+    width: 80%;
+}
+.flexInner{
+    z-index: 999999;
+}
+.product {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding-top: 4rem;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .product button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .product button:hover {
+    opacity: 0.7;
+  }
+
+.productListingsContainer{
+    display: flex;
+    justify-content: center;
+}
+.productListings{
+    justify-content: flex-start;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 100px;
+}
