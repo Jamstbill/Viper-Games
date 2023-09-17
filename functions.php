@@ -5,4 +5,4 @@ function dd($value){
     var_dump($value);
     echo "</pre>";
     die();
-}
+}?>
