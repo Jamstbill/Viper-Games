@@ -41,18 +41,17 @@
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="/categories" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">CATEGORIES</a>
             <a href="/new-in" class="text-gray-300 hover:bg-white-700 hover:text-black rounded-md px-3 py-2 text-sm font-medium">NEW IN</a>
-            <a href="/consoles" class="text-gray-300 hover:bg-white-700 hover:text-black rounded-md px-3 py-2 text-sm font-medium">CONSOLES</a>
             <a href="/sale" class="text-gray-300 hover:bg-white-700 hover:text-black rounded-md px-3 py-2 text-sm font-medium">SALE</a>
           </div>
 
           <div class="accountIcons">
             <div>
-        <button type="button" class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+        <a href='/account'><button type="button" class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
           <span class="absolute -inset-1.5"></span>
           <span class="sr-only">View notifications</span>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-          </svg>      
+          </svg>  </a>    
         </div>
         <div>
           <button type="button" class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">

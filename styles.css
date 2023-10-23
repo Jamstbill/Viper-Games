@@ -1,3 +1,7 @@
+body{
+    height: 100%;
+}
+
 .mx-auto.max-w-7xl.px-2.sm\:px-6.lg\:px-8{
     padding-top: 100px;
 }
@@ -45,6 +49,7 @@
     display: flex;
     justify-content: center;
     padding: 1rem;
+    position: fixed;
 }
 .footerContent{
     width: 80%;
@@ -90,4 +95,42 @@
     flex-wrap: wrap;
     height: auto;
     gap: 100px;
+}
+.register-button{
+    background-color: #b91c1c;
+    border-radius: 20px;
+}
+
+table {
+    border:1px solid #b3adad;
+    border-collapse:collapse;
+    padding:5px;
+    border-radius: 10px;
+}
+table th {
+    border:1px solid #b3adad;
+    padding:5px;
+    background: #f0f0f0;
+    color: #313030;
+    width: 300px;
+}
+table td {
+    border:1px solid #b3adad;
+    text-align:center;
+    padding:5px;
+    background: #ffffff;
+    color: #313030;
+}
+
+.order-view-content{
+    margin: 3% 0 3% 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-form{
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-bottom: 10%;
 }

@@ -6,4 +6,6 @@ $routes = require('routes.php');//pulls in the routes array
 
 if (array_key_exists($uri, $routes)){//checks if the provided key (uri) exists in the array. If if does requires each uri/crontoller if applicable
    require ($routes[$uri]); 
-} 
+} else{
+   abort();
+}
